@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+ max-width: 100%;
+
+}
+
+.scene {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+ 
+}
+.layer {
+  position: absolute;
+  left: -10%;
+  top: 0;
+  width: 110%;
+  height: 100%;
+}
